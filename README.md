@@ -53,7 +53,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2021-2025 [github-org]
+Copyright (c) 2021-2025 [homeassistant-apps][github-org]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
