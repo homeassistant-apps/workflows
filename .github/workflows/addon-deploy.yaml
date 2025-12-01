@@ -159,7 +159,7 @@ jobs:
       - name: 🚀 Dispatch update signal - homeassistant-apps/repository-edge
         uses: peter-evans/repository-dispatch@v4
         with:
-          token: ${{ secrets.PAT_BRENNER_BOT }}
+          token: ${{  secrets.DISPATCH_TOKEN  }}
           repository: ${{ github.repository_owner }}/repository-edge
           event-type: update
           client-payload: >
@@ -173,7 +173,7 @@ jobs:
         if: needs.information.outputs.slug == 'cloudflared'
         uses: peter-evans/repository-dispatch@v4
         with:
-          token: ${{ secrets.PAT_BRENNER_BOT }}
+          token: ${{  secrets.DISPATCH_TOKEN  }}
           repository: brenner-tobias/ha-addons-edge
           event-type: update
           client-payload: >
@@ -198,7 +198,7 @@ jobs:
         if: needs.information.outputs.slug == 'cloudflared'
         uses: peter-evans/repository-dispatch@v4
         with:
-          token: ${{ secrets.PAT_BRENNER_BOT }}
+          token: ${{  secrets.DISPATCH_TOKEN  }}
           repository: ${{ github.repository_owner }}/repository
           event-type: update
           client-payload: >
@@ -211,7 +211,7 @@ jobs:
       - name: 🚀 Dispatch repository updater update signal - brenner-tobias/ha-addons
         uses: peter-evans/repository-dispatch@v4
         with:
-          token: ${{ secrets.PAT_BRENNER_BOT }}
+          token: ${{  secrets.DISPATCH_TOKEN  }}
           repository: brenner-tobias/ha-addons
           event-type: update
           client-payload: >
