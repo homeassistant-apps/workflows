@@ -1,19 +1,19 @@
-# Home Assistant Apps (Add-on): GitHub Action Workflows
+# Unofficial Home Assistant Apps (Add-ons): GitHub Action Workflows
 
 [![License][license-shield]](LICENSE.md)
 [![GitHub Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-GitHub Actions Workflows for the Unofficial Home Assistant Apps (Add-Ons)
+GitHub Action Workflows for the Unofficial Home Assistant Apps (Add-ons)
 
 ## About
 
-This repository contains GitHub Actions Workflows that are shared across
-the other Home Assistant Apps (Add-ons) repositories.
+This repository contains GitHub Action Workflows that are shared across
+the other Unofficial Home Assistant Apps (Add-ons) repositories.
 
 It allows us to maintain all our workflows in a single place and reuse
-them across the Unofficial Home Assistant Apps (Add-Ons) organization.
+them across the Unofficial Home Assistant Apps (Add-ons) organization.
 
 While these workflows are public, they are subjected to change and not
 versioned in terms of releases. Using them from this repository directly for
@@ -21,7 +21,7 @@ other project is possible, but not recommended for that reason.
 
 ## Changelog & Releases
 
-Unlike all other projects provided by the Home Assistant Community Add-ons
+Unlike all other projects provided by the Unofficial Home Assistant Apps (Add-ons)
 project, this repository isn't versioned (in terms of releases).
 
 If you want to see what has changed, please see the commit history of the
