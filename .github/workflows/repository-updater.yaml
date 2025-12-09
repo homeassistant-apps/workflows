@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Run Repository Updater
-        uses: homeassistant-apps/action-repository-updater@v1.4.0
+        uses: homeassistant-apps/action-repository-updater@v1.4.1
         with:
           addon: ${{ github.event.client_payload.addon }}
           repository: ${{ github.repository }}
