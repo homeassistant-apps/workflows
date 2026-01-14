@@ -80,6 +80,6 @@ SOFTWARE.
 [github-actions]: https://github.com/homeassistant-apps/workflows/actions/workflows/workflows-ci.yaml
 [issue]: https://github.com/homeassistant-apps/workflows/issues
 [license-shield]: https://img.shields.io/github/license/homeassistant-apps/workflows.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [repository]: https://github.com/homeassistant-apps/repository
 [github-org]: https://github.com/homeassistant-apps
